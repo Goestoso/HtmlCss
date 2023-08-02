@@ -4,6 +4,6 @@
 > Status: 
 
 ```
-Fase Inicial do projeto 😁
+Fase inicial do projeto 😁
 
 ```
