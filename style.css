@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: #22D4FD;
+}
+
+h1 {
+   font-weight: bold; 
+}
+strong {
+    color: #F6F6F6;
+}
+
+span {
+    color: #6F75FE;
+            border: 2px solid #6F75FE;
+            padding: 1px;
+}
