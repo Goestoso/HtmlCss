@@ -4,6 +4,7 @@
 > Status: fase inicial do html e css
 
 ![Logo do HTML](https://github.com/Goestoso/HTML_CSS/blob/html/html.png)
+![Logo do CSS](https://github.com/Goestoso/HTML_CSS/blob/html/css.png)
 
 
 
