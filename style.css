@@ -1,3 +1,8 @@
+* {
+    margin: 0.5;
+    padding: 0;
+}
+
 body {
     background-color: black;
     color: #22D4FD;
@@ -6,12 +11,16 @@ body {
 h1 {
    font-weight: bold; 
 }
-strong {
+.titulo-destaque {
+    color: #6F75FE;
+}
+
+.mensagem-destque {
     color: #F6F6F6;
 }
 
 span {
     color: #6F75FE;
-            border: 2px solid #6F75FE;
+            border: 1px solid #6F75FE;
             padding: 1px;
 }
