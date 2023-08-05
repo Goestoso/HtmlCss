@@ -3,9 +3,5 @@
 
 > Status: concluí os aperfeçoamentos do meu primeiro html, aguardando próximos testes a desenvolver
 
-![Logo do HTML](https://github.com/Goestoso/HTML_CSS/blob/html/html.png)
-![Logo do CSS](https://github.com/Goestoso/HTML_CSS/blob/html/css.png)
-
-
-
-
+![css](https://github.com/Goestoso/HTML_CSS/assets/132786474/5da42007-a0ab-46d0-b7d9-24b46750a043)
+![html](https://github.com/Goestoso/HTML_CSS/assets/132786474/06deb8ee-cd6c-4cc8-baba-36065ff809d6)
