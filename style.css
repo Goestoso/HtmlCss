@@ -1,9 +1,16 @@
-* {
-    margin: 0.5;
-    padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Lato&family=Montserrat:wght@400;600&display=swap');
+/*Esse trecho se refere às importações de fontes ao arquivo css*/
 
+/*Esse trecho se refere a propriedades gerais da estilização css e para isso precisa de um asterisco antes*/
+* {
+    /*Essas são as propriedades do css*/
+    margin: 1px; /* Margin: Espaçamento externo que envolve o elemento. */
+    padding: 0.5px; /* Padding: Espaçamento interno entre o conteúdo e a borda do elemento. */
+}
+/*Esse trecho se refere a tag body e a suas configs*/
 body {
+    height: 100vh; /* Height: Altura do elemento. */
+    box-sizing: border-box;
     background-color: black;
     color: #22D4FD;
 }
@@ -11,6 +18,19 @@ body {
 h1 {
    font-weight: bold; 
 }
+
+span {
+    color: #0b17fb;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 0px 0px 10px #0b17fb;
+    display: inline-block;
+    border: 3px solid #0b17fb; /* Border: Borda ao redor do elemento. */
+    padding: 0.1px 5px;
+    border-radius: 20%;
+    box-shadow: 2px 0px 8px #0b17fb;
+}
+
+/*Aqui estão as classes declaradas lá no index.html (elas devem ser chamadas com um '.' antes*/
 .titulo-destaque {
     color: #6F75FE;
 }
@@ -19,8 +39,97 @@ h1 {
     color: #F6F6F6;
 }
 
-span {
-    color: #6F75FE;
-            border: 1px solid #6F75FE;
-            padding: 1px;
+.apresentacao {
+    margin: 10% 10%;
+    display: flex; /* Display: Flex: Cria um container flexível para layout em linha ou coluna. */
+    align-items: center;
+    justify-content: space-between;
 }
+.apresentacao__conteudo{
+    width: 615px; /* Width: Largura do elemento. */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__links__link {
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links__link:hover {
+    transform: scale(0.9); /* Transform: Aplica transformações visuais a um elemento. */
+}
+
+.apresentacao__links__link:visited {
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600; 
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    
+}
+
+.apresentacao__link__titulo {
+    text-decoration: none;
+    color: #0b17fb;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 0px 0px 10px #0b17fb;
+    display: inline-block;
+    font-size: 42px;
+    border: 3px solid #0b17fb;
+    padding: 0.1px 5px;
+    border-radius: 20%;
+    box-shadow: 2px 0px 8px #0b17fb;
+}
+
+.apresentacao__link__titulo:active {
+    color: #0b17fb;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    border: 3px solid #0b17fb;
+    padding: 0.1px 5px;
+    border-radius: 20%;
+    box-shadow: 2px 0px 8px #0b17fb;
+}
+
+.apresentacao__link__titulo:visited {
+    color: #0b17fb;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    border: 3px solid #0b17fb;
+    padding: 0.1px 5px;
+    border-radius: 20%;
+    box-shadow: 2px 0px 8px #0b17fb;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
