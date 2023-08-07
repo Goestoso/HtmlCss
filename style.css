@@ -4,12 +4,12 @@
 /*Esse trecho se refere a propriedades gerais da estilização css e para isso precisa de um asterisco antes*/
 * {
     /*Essas são as propriedades do css*/
-    margin: 1px; /* Margin: Espaçamento externo que envolve o elemento. */
-    padding: 0.5px; /* Padding: Espaçamento interno entre o conteúdo e a borda do elemento. */
+    margin: 0px; /* Margin: Espaçamento externo que envolve o elemento. */
+    padding: 0px; /* Padding: Espaçamento interno entre o conteúdo e a borda do elemento. */
 }
 /*Esse trecho se refere a tag body e a suas configs*/
 body {
-    height: 100vh; /* Height: Altura do elemento. */
+    /* height: 100vh; Height: Altura do elemento. */
     box-sizing: border-box;
     background-color: black;
     color: #22D4FD;
@@ -31,19 +31,29 @@ span {
 }
 
 /*Aqui estão as classes declaradas lá no index.html (elas devem ser chamadas com um '.' antes*/
-.titulo-destaque {
-    color: #6F75FE;
+
+.cabecalho {
+    padding: 1% 0%  0% 14%;   
 }
 
-.mensagem-destque {
-    color: #F6F6F6;
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color:#22D4FD;
 }
 
 .apresentacao {
-    margin: 10% 10%;
+    padding: 2% 10%;
     display: flex; /* Display: Flex: Cria um container flexível para layout em linha ou coluna. */
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 5%;
 }
 .apresentacao__conteudo{
     width: 615px; /* Width: Largura do elemento. */
@@ -53,36 +63,51 @@ span {
 }
 .apresentacao__links {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 .apresentacao__links__link {
-    background-color: #22D4FD;
-    width: 280px;
+    /* background-color: #22D4FD; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border:2px dotted #22D4FD; 
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #000;
+    color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
 }
 
 .apresentacao__links__link:hover {
+    background-color: #272727;
     transform: scale(0.9); /* Transform: Aplica transformações visuais a um elemento. */
 }
 
 .apresentacao__links__link:visited {
-    background-color: #22D4FD;
+    /* background-color: #22D4FD; */
+    border:2px dotted #22D4FD;
     width: 280px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     font-weight: 600; 
     padding: 21.5px 0;
     text-decoration: none;
-    color: #000;
+    color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -91,6 +116,10 @@ span {
     font-size: 36px;
     font-family: 'Krona One', sans-serif;
     
+}
+
+.titulo-destaque {
+    color: #6F75FE;
 }
 
 .apresentacao__link__titulo {
@@ -131,5 +160,22 @@ span {
     font-family: 'Montserrat', sans-serif;
 }
 
+.mensagem-destque {
+    color: #F6F6F6;
+}
 
+.apresentacao__imagem {
+    width: 600px;
+    height: auto;
+}
+
+.rodape {
+    padding: 24px;
+    color: #000;
+    background-color: #22D4FD;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
 
