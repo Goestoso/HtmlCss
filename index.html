@@ -5,28 +5,48 @@
     <meta charset="UTF-8"> <!-- Referência ao tipo de leitura dos caracteres-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Referência ao metadado vh e o seu conteúdo -->
     <title>Portifólio</title> <!-- Referência ao título do html geral-->
-    <link rel="stylesheet" href="style.css"> <!-- Referência aos links de conexões do html-->
+    <link rel="stylesheet" href="./styles/style.css"> <!-- Referência aos links de conexões do html-->
 </head> <!-- Fecha a tag head-->
 <body> <!-- Aqui estão os conteúdos visíveis-->
-    <header></header> <!-- Referência a cabeçalho-->
+    <header class="cabecalho">
+        <nav class="cabecalho__menu"> <!-- A tag <nav> é usada para definir uma seção de navegação no documento HTML.-->
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculum.html">Currículo</a>
+        </nav>
+    </header> <!-- Referência a cabeçalho-->
     <main class="apresentacao"> <!-- Referência a parte principal-->
         <section class="apresentacao__conteudo"> <!--Referência a uma seção da parte principal do html-->
-            <h1 class="apresentacao__conteudo__titulo"> Essa é a minha primeira página, <strong class="titulo-destaque">estou estudando pela plataforma da </strong><span><a class="apresentacao__link__titulo" href="https://cursos.alura.com.br">alura</a></span></h1> 
+            <h1 class="apresentacao__conteudo__titulo"> Essa é a minha primeira página, <strong class="apresentacao__conteudo__titulo__destaque"> eu aprendi pela plataforma digital </strong><span><a class="apresentacao__link__titulo" href="https://cursos.alura.com.br">alura</a></span></h1> 
             <!-- <h1>: Tags de cabeçalho usadas para títulos. h1 a h6 são usados para diferentes níveis de importância. -->
 
-            <p class="apresentacao__conteudo__texto"><strong class="mensagem-destque">Olá!</strong> Sou <strong class="mensagem-destque">Patton Goes de Castro</strong>, estou estudando várias coisas sobre a TI, principalmente <strong class="mensagem-destque">Programação </strong>e <strong class="mensagem-destque">Ciência de Dados </strong class="mensagem-destque">. Por enquanto, sou <strong class="mensagem-destque">jovem aprendiz</strong>  e estudo na <strong class="mensagem-destque">Fatec de Análise e Desenvolvimento de Sistemas.</strong> Vamos conversar?</p> 
+            <p class="apresentacao__conteudo__texto"><strong class="apresentacao__conteudo__texto__destaque">Olá!</strong> Sou <strong class="apresentacao__conteudo__texto__destaque">Patton Goes de Castro</strong>, estou estudando várias coisas sobre a TI, principalmente sobre <strong class="apresentacao__conteudo__texto__destaque">Programação </strong>e <strong class="apresentacao__conteudo__texto__destaque">Ciência de Dados </strong class="apresentacao__conteudo__texto__destaque">. Por enquanto, sou <strong class="apresentacao__conteudo__texto__destaque">jovem aprendiz</strong>  e estou cursando em <strong class="apresentacao__conteudo__texto__destaque">Análise e Desenvolvimento de Sistemas.</strong> Vamos papear?</p> 
             <!-- <p>: Tag de parágrafo para criar blocos de texto. --> 
                 <!-- <span>: Tag de estilo em linha usada para aplicar estilos a uma parte específica do texto. -->
                 <!-- <strong>: Tag para enfatizar o texto, geralmente exibido em negrito. -->
             
             <div class="apresentacao__links"> <!-- <div>: Tag de divisão usada para agrupar e estruturar elementos. -->
-            <a class="apresentacao__links__link" href="https://instagram.com/patton_goes">Instagram</a> 
-            <!-- <a>: Tag âncora usada para criar links para outras páginas ou recursos. -->
-            <a class="apresentacao__links__link" href="https://github.com/Goestoso">Github</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes: </h2>
+                <a class="apresentacao__links__link" href="https://github.com/Goestoso">
+                    <img src="./assets/GitHub.png">  
+                    Github
+                </a>
+                <a class="apresentacao__links__link" href="https://linkedin.com/in/gabriel-goes-de-castro-365193258/">
+                    <img src="./assets/linkedin.png">  
+                    LinkedIn
+                </a>
+                <a class="apresentacao__links__link" href="https://instagram.com/patton_goes">
+                    <img src="./assets/instagram.png">
+                    Instagram
+                </a>
+                <!-- <a>: Tag âncora usada para criar links para outras páginas ou recursos. --> 
+                
             </div>
         </section>
-        <img src="Patton.png" alt="Foto do Patton"> <!-- <img>: Tag para exibir imagens na página. -->
+        <img class="apresentacao__imagem" src="./assets/Patton.png" alt="Foto do Patton"> <!-- <img>: Tag para exibir imagens na página. -->
     </main>
-    <footer></footer> <!-- Referência ao rodapé-->
+    <footer class="rodape">
+        <p>Desenvolvido por Gabriel Goes</p>
+    </footer> <!-- Referência ao rodapé-->
 </body> <!-- Fecha a tag body-->
 </html> <!-- Fecha o html-->
