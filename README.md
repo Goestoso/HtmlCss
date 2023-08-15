@@ -1,12 +1,23 @@
-# HTML_CSS
+# Html e Css
+
 Portifólio para praticar e estudar HTML e CSS.
 
-Aqui é o espaço principal dos testes e estudos que estou fazendo dessas linguagens de marcação e estilização...
+##
 
-> Status: trabalhando com recursividade e publicação de projetos... 
+| Desenvolvimento | Estudo | Status |
+|-----------------|--------| -------- |
+|   Fase 1  | `ambientes, estrutura e tags` |✅|
+|   Fase 2  | `Classes, posicionamento e Flexbox` |✅|
+|   Fase 3 | `cabeçalho, footer e variáveis Css` |✅|
+|   Fase 4 | `responsividade e publicação` | ✅|
+|   Fase 5  | `praticando Html/Css` |⚙️|
+|   Fase 6  | `responsividade com mobile-first` |💤|
 
-```
-Aperfeiçoando e ampliando os estudos - fase 4 ⚙️
-```
+<br>
 
-![Luke](https://github.com/Goestoso/HTML_CSS/assets/132786474/86802f23-3334-4378-b61e-772b7c6f522b)
+>Estou aprendendo com a [alura](https://cursos.alura.com.br) 🤖.
+
+<br>
+
+
+<img src="https://github.com/Goestoso/HtmlCss/assets/132786474/35331863-d922-4fe4-9fb0-7f721827fa13" alt="Bob-Esponja" style="width: auto; height: auto;">
