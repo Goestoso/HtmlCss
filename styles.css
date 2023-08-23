@@ -25,17 +25,19 @@ body {
 
 .principal {
 
-    background-image: url("assets/Background.png");
+    background-image: url("assets/Background.png"); /* define como imagem de fundo */
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center; /* Centraliza verticalmente os itens */
+    text-align: center;  /* Centraliza o conteúdo horizontalmente */
 
 }
 
 .container {
 
     height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: grid; /* ativa o layout de grade na classe */
+    grid-template-columns: 50% 50%; /* define duas colunas de igual largura */
 
 }
 
@@ -82,4 +84,47 @@ body {
     font-size: 12px;
     color: var(--cinza-secundario);
 
+}
+
+.secundario__imagem {
+
+    width: 80%;
+}
+
+.secundario {
+
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+
+    font-weight: 700;
+    font-size: 48px;
+    color:var(--branco-principal);
+    margin-bottom: 0.2em;
+}
+
+.descricao__texto {
+
+    color: var(--cinza-secundario);
+}
+
+.secundario__botao {
+
+    display: inline-block;
+    margin-top: 1em;
+
+}
+
+.container__descricao {
+
+    padding: 2em;
+
+}
+
+.unicornio {
+
+    width: 500;
+    border-radius: 20%;
 }
