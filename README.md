@@ -38,6 +38,8 @@ p {
 
 ##
 
+### Fluxo de conhecimento:
+
 | Desenvolvimento | Estudo | Status |
 |-----------------|--------| -------- |
 |   Fase 1  | `ambientes, estrutura e tags` |✅|
