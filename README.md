@@ -31,11 +31,15 @@ p {
 }
 ```
 
-<h3>Minhas páginas: </h3>
+<details> 
+    
+ <summary><h3>Minhas páginas</h3></summary>
 
 - [contents](https://html-css-wheat.vercel.app/)
 - [contents+](https://html-css-plus.vercel.app/)
 
+</details>
+    
 ##
 
 ### Fluxo de conhecimento:
