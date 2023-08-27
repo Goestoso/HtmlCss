@@ -59,7 +59,7 @@ body {
 .container__imagem {
 
     margin: 1em 0 2em 0;
-    
+
 
 }
 
@@ -214,4 +214,56 @@ body {
     font-size: 14px;
     color: var(--cinza-secundario);
     margin: 2em 15em;
+}
+
+@media screen and (max-width: 768px) {
+    
+
+    .principal {
+
+        background-image: none; 
+        display: block;
+    }
+
+    .container__imagem {
+
+        width: 50vw;
+    }
+
+    .container__caixa {
+
+        margin: 1em 1em;
+    }
+
+    .secundario {
+
+       display: block;        
+       margin: 0 0; 
+       text-align: center;
+    }
+
+    .secundario__imagem {
+
+        width: 50vw;
+    }
+
+    .patton {
+
+        width: 50vw;
+    }
+
+    .dispositivos__lista {
+
+        display: block;
+    }
+
+    .rodape__lista {
+
+        display: block;
+    }
+    
+    .rodape__texto {
+
+        margin: 2em 1em;
+    }
 }
