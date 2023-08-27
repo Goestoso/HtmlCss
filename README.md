@@ -30,15 +30,11 @@ p {
     margin-bottom: 20px;
 }
 ```
-
-<details> 
     
- <summary><h3>Minhas páginas</h3></summary>
+<h3>Minhas páginas: </h3>
 
 - [contents](https://html-css-wheat.vercel.app/)
 - [contents+](https://html-css-plus.vercel.app/)
-
-</details>
     
 ##
 
