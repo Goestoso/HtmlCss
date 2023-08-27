@@ -2,7 +2,7 @@
 <p>Aqui é o espaço do <b>desenvolvimento</b> dos testes que estou fazendo dessas linguagens de marcação e estilização.</p>
 <br>
 
-> Status: elaborando um novo projeto 📝
+> Status: testes concluídos (pseudo-classes, sections, displays e aligns) e projeto finalizado ✅
 
 ##
 
