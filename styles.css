@@ -3,12 +3,13 @@
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
+    --botao-azul-efeito: #3c92fa;
     --fonte-principal: 'Inter';
 }
 
 * {
 
-    margin: 0;
+    margin: 0 0 0 0; /*margin: valor-top valor-right valor-bottom valor-left;*/
     padding: 0;
 
 }
@@ -28,6 +29,7 @@ body {
     background-image: url("assets/Background.png"); /* define como imagem de fundo */
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: right;
     align-items: center; /* Centraliza verticalmente os itens */
     text-align: center;  /* Centraliza o conteúdo horizontalmente */
 
@@ -57,6 +59,7 @@ body {
 .container__imagem {
 
     margin: 1em 0 2em 0;
+    
 
 }
 
@@ -72,11 +75,24 @@ body {
 
 }
 
+.container__botao:hover { /*Pseudo Classes com : */
+
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
+    transform: scale(0.9);
+}
+
 .botao_secundario {
 
     background-color: transparent;
     border: 2px solid var(--branco-principal);
 
+}
+
+.botao_secundario:hover {
+
+    background-color: var(--branco-principal);
+    transform: scale(0.9);
 }
 
 .container__aviso {
@@ -127,4 +143,75 @@ body {
 
     width: 500;
     border-radius: 20%;
+}
+
+.patton {
+
+    border-radius: 20%;
+    border-style: dashed; /*Borda tracejada*/
+}
+
+.dispositivos{
+
+    text-align: center;
+}
+
+.dispositivos__titulo {
+
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.lista__item {
+
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.dispositivos__lista {
+
+    display: flex;
+    justify-content: center;
+    list-style-type: none; /*Remove os ícones de lista*/
+    margin: 3em 0; 
+}
+
+.rodape {
+
+    margin-top: 10rem;
+   text-align: center;
+}
+
+.rodape__lista {
+
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+.lista__link a {
+
+    margin: 0 1em;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--branco-principal);
+}
+
+.lista__link a:hover {
+
+    color: var(--botao-azul);
+}
+
+.lista__link a:active {
+
+    color: purple;
+}
+
+.rodape__texto {
+
+    font-size: 14px;
+    color: var(--cinza-secundario);
+    margin: 2em 15em;
 }
