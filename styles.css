@@ -1,4 +1,5 @@
 @import url("styles/header.css"); 
+@import url("styles/banner.css");
 /*usado para importar estilos de um arquivo CSS em outro arquivo CSS*/
 
 :root {
@@ -6,10 +7,15 @@
     --branco: #FFFFFF;
     --laranja: #EB9B00;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%); /* Aqui, um gradiente de cores é aplicado à cor do texto. linear-gradient é uma função que cria um gradiente linear.*/
+    --fonte-principal: "Poppins";
 
 }
 
 body {
 
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+
 }
