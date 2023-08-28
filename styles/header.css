@@ -1,0 +1,63 @@
+.cabecalho {
+
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; /*mantém seu espaço normal no fluxo do layout, ou seja, ele ainda ocupa espaço onde normalmente estaria, mesmo que tenha outras posições aplicadas.  */
+}
+
+.cabecalho__menu-hamburguer {
+
+    width: 20px;
+    height: 20px;
+    background-image: url("../assets/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+
+    padding: 1em;
+}
+
+.lista-menu {
+
+    display: none; /* usado para ocultar um elemento HTML da renderização na página. */
+    position: absolute; /* o elemento é posicionado em relação ao elemento pai mais próximo que tenha uma posição diferente de static (o valor padrão).  */
+    top: 100%; /* top é usada para definir a posição vertical de um elemento em relação ao seu elemento pai posicionado.  */
+    width: 50vw;
+}
+
+.container__botao:checked ~.lista-menu { /* A notação ~ no CSS é conhecida como "seletor de irmão geral" ou "seletor de irmão subsequente". Ele é usado para selecionar elementos que são irmãos subsequentes do elemento de referência e que atendem ao seletor especificado. */
+
+    display: block;
+}
+
+.lista-menu__titulo, .lista-menu__item {
+
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu__titulo {
+
+    color: var(--laranja);
+}
+
+.lista-menu__link {
+
+    background: var(--azul-degrade);
+    background-clip: text; /* define como o plano de fundo será aplicado ao elemento de texto. No caso, o valor text indica que o gradiente será aplicado somente à área de texto.   */
+    -webkit-background-clip: text; /* Essa é uma versão específica do prefixo do WebKit da propriedade background-clip. Alguns navegadores exigem esse prefixo para a propriedade funcionar corretamente. */
+    -webkit-text-fill-color: transparent; /* Isso é usado para tornar o conteúdo do texto transparente, de modo que o gradiente de fundo seja visível através dele. O prefixo -webkit- é usado para navegadores baseados no WebKit.. */
+    text-transform: uppercase; /* Essa propriedade transforma o texto em letras maiúsculas.  */
+}
