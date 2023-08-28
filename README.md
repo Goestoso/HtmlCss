@@ -3,6 +3,7 @@
 Portifólio para praticar e estudar HTML (HyperText Markup Language) e CSS (Cascading Style Sheets).
 
 ```
+<!-- Estrutura básica do html-->
 <!DOCTYPE html>
 <html>
 <head>
