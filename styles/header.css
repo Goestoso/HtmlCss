@@ -37,6 +37,11 @@
     width: 50vw;
 }
 
+.container__botao {
+
+    display: none;
+}
+
 .container__botao:checked ~.lista-menu { /* A notação ~ no CSS é conhecida como "seletor de irmão geral" ou "seletor de irmão subsequente". Ele é usado para selecionar elementos que são irmãos subsequentes do elemento de referência e que atendem ao seletor especificado. */
 
     display: block;
@@ -51,6 +56,7 @@
 .lista-menu__titulo {
 
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu__link {
