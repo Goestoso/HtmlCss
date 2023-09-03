@@ -57,7 +57,7 @@ p {
 
 <br>
 
->Guia de estudos: [HTMLCSSwiki](https://githublearn.wiki.zoho.com/JavaScriptHTMLCSSLearning/) 📖.
+>Guia de estudos (necessário conta na wiki zoho): [HTMLCSSwiki](https://githublearn.wiki.zoho.com/JavaScriptHTMLCSSLearning/) 📖.
 
 <br>
 
