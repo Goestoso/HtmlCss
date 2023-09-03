@@ -1,0 +1,30 @@
+@import url("styles/header.css"); 
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("/styles/topicos.css");
+@import url("/styles/contato.css");
+@import url("/styles/rodape.css");
+/*usado para importar estilos de um arquivo CSS em outro arquivo CSS*/
+
+:root { /*declarações de variáveis CSS*/
+    --cor-de-fundo: #EBECEE; 
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul: #002F52;
+    --preto: #000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%); /* Aqui, um gradiente de cores é aplicado à cor do texto. linear-gradient é uma função que cria um gradiente linear.*/
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans";
+
+}
+
+body { /* estilizações padrões do coonteúdo da página*/
+
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+
+}
