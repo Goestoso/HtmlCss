@@ -51,4 +51,23 @@ hr {
         text-decoration: none;
         margin-left: 0.5em;
     }
+
+    .lista-rodape__link:hover {
+
+        color: var(--laranja);
+    }
+}
+
+@media screen and (min-width: 1536px) { /* Configs para desktops  */
+
+    .lista-rodape {
+
+        border-left: 1px solid var(--cinza-claro);
+        padding-left: 1em;
+    }
+
+    .rodape {
+
+        padding: 3em 0;
+    }
 }

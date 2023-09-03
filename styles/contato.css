@@ -62,7 +62,15 @@
 
     .contato__descricao {
 
-        margin-right: 1em;
+        margin: 1em 2.5em;
         width: 30%;
+    }
+}
+
+@media screen and (min-width: 1536px) { /* Configs para desktops  */
+
+    .contato {
+
+        padding: 3em 20vw;
     }
 }

@@ -47,3 +47,16 @@
         font-size: 24px;
     }
 }
+
+@media screen and (min-width: 1536px) { /* Configs para desktops  */
+
+    .topicos {
+
+        padding: 3em 20vw 3em 20vw;
+    }
+
+    .topicos__item:hover {
+
+        transform: scale(0.9);
+    }
+}

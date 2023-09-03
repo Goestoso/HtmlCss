@@ -57,3 +57,21 @@
         background-position: 6em;
     }
 }
+
+@media screen and (min-width: 1536px) { /* Configs para desktops  */
+
+    .banner__pesquisa {
+
+        width: 40%;
+    }
+
+    .banner__pesquisa::placeholder {
+
+        background-position: 9em;
+    }
+
+    .banner {
+
+        padding: 5em 0;
+    }
+}
