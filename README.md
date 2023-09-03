@@ -3,6 +3,7 @@
 Portifólio para praticar e estudar HTML (HyperText Markup Language) e CSS (Cascading Style Sheets).
 
 ```
+<!-- Estrutura básica do html-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,8 +47,8 @@ p {
 |   Fase 2  | `Classes, posicionamento e Flexbox` |✅|
 |   Fase 3 | `cabeçalho, footer e variáveis Css` |✅|
 |   Fase 4 | `responsividade e publicação` | ✅|
-|   Fase 5  | `praticando Html/Css` |⚙️|
-|   Fase 6  | `responsividade com mobile-first` |💤|
+|   Fase 5  | `praticando Html/Css` |✅|
+|   Fase 6  | `responsividade com mobile-first` |⚙️|
 
 <br>
 
