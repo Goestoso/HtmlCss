@@ -35,7 +35,7 @@
     font-weight: 700;
 }
 
-@media screen and (min-width: 1024px) { /* Configs para tablets  */
+@media screen and (min-width: 1024px) { /* Configurações para tablets  */
 
     .topicos__titulo {
 
@@ -48,7 +48,7 @@
     }
 }
 
-@media screen and (min-width: 1536px) { /* Configs para desktops  */
+@media screen and (min-width: 1536px) { /* Configurações para desktops  */
 
     .topicos {
 

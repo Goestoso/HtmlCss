@@ -41,7 +41,7 @@
     padding-left: 2.5em;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) { /* Configurações para tablets  */
 
     .contato {
 
@@ -67,7 +67,7 @@
     }
 }
 
-@media screen and (min-width: 1536px) { /* Configs para desktops  */
+@media screen and (min-width: 1536px) { /* Configurações para desktops  */
 
     .contato {
 

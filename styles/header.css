@@ -88,7 +88,7 @@
     display: none;
 }
 
-@media screen and (min-width: 1024px) { /* Configs para tablets  */
+@media screen and (min-width: 1024px) { /* Configurações para tablets  */
     
     .container__titulo, .container__titulo--negrito {
 
@@ -172,7 +172,7 @@
     text-decoration: none;
 }
 
-@media screen and (min-width: 1536px) { /* Configs para desktops  */
+@media screen and (min-width: 1536px) { /* Configurações para desktops  */
 
     .container__texto {
 

@@ -39,7 +39,7 @@
     background-position: 0.5em;
 }
 
-@media screen and (min-width: 1024px) { /* Configs para tablets  */
+@media screen and (min-width: 1024px) { /* Configurações para tablets  */
     
     
     .banner__titulo {
@@ -58,7 +58,7 @@
     }
 }
 
-@media screen and (min-width: 1536px) { /* Configs para desktops  */
+@media screen and (min-width: 1536px) { /* Configurações para desktops  */
 
     .banner__pesquisa {
 

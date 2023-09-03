@@ -13,7 +13,7 @@ hr {
     display: none;
 }
 
-@media screen and (min-width: 1024px) { /* Configs para tablets  */
+@media screen and (min-width: 1024px) { /* Configurações para tablets  */
 
     .rodape {
 
@@ -58,7 +58,7 @@ hr {
     }
 }
 
-@media screen and (min-width: 1536px) { /* Configs para desktops  */
+@media screen and (min-width: 1536px) { /* Configurações para desktops  */
 
     .lista-rodape {
 
