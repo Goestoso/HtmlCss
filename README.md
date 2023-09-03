@@ -36,6 +36,7 @@ p {
 
 - [contents](https://html-css-wheat.vercel.app/)
 - [contents+](https://html-css-plus.vercel.app/)
+- [mobile-first](https://html-css-mobile-first-iota.vercel.app/).
     
 ##
 
@@ -48,11 +49,15 @@ p {
 |   Fase 3 | `cabeçalho, footer e variáveis Css` |✅|
 |   Fase 4 | `responsividade e publicação` | ✅|
 |   Fase 5  | `praticando Html/Css` |✅|
-|   Fase 6  | `responsividade com mobile-first` |⚙️|
+|   Fase 6  | `responsividade com mobile-first` |✅|
 
 <br>
 
->Estou aprendendo com a [alura](https://cursos.alura.com.br) 🤖.
+>Estudos realizados pela plataforma [alura](https://cursos.alura.com.br) 🤖.
+
+<br>
+
+>Guia de estudos: [HTMLCSSwiki](https://githublearn.wiki.zoho.com/JavaScriptHTMLCSSLearning/) 📖.
 
 <br>
 
